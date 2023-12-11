@@ -1,0 +1,101 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style untuk halaman web */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Warna latar belakang utama */
+    color: #333; /* Warna teks */
+}
+
+header {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffd5e5; /* Warna header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333; /* Warna teks header */
+}
+
+/* Foto diri */
+header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 10px;
+}
+
+section ul{
+
+    margin-bottom: 30px;
+    background-color:#add8e6; /* Warna background section */
+    padding: 20px;
+    border-radius: 10px; /* Frame pada bagian Profile dan Skillset */
+    width: 25%;
+    height: 200px;
+    text-align: justify
+
+    
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333; /* Warna teks header section */
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 8px;
+    color: #555; /* Warna teks item list */
+}
+/* Tombol Ganti Warna Background */
+section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #100f0f;
+}
+#redBtn {
+    background-color: red;
+}
+
+#blueBtn {
+    background-color: blue;
+}
+
+#greenBtn {
+    background-color: green;
+}
+
+#whiteBtn {
+    background-color: white;
+}
+
+section button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
